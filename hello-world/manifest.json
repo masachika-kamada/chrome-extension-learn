@@ -1,10 +1,21 @@
 {
   "name": "HELLO WORLD",
   "description": "chrome拡張機能の基礎",
+  "icons": { "48": "hello_extension.png" },
   "version": "1.0",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html",
     "default_icon": "hello_extension.png"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+F",
+        "mac": "MacCtrl+Shift+F"
+      },
+      "description": "OpenUp",
+      "global": false
+    }
   }
 }
