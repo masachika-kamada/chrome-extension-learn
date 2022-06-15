@@ -1,0 +1,11 @@
+{
+  "name": "元気が出るスイッチ",
+  "description": "chrome拡張機能の基礎",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab","scripting"],
+	"background": {
+		"service_worker": "alert.js"
+	},
+	"action": {}
+}
